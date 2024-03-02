@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="portfolio1.css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div id="header">
+        <div class="container">
+            <nav>
+                <img src="proimg.png"class="logo" width="250px" height="280px">
+                <ul>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#project">PROJECT</a></li>
+                    <li><a href="#Resume">RESUME</a></li>
+                    <li><a href="#Contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software/Web Developer</p>
+                <h1>Welcome to <span> SANGEETHA'S </span>portfolio!</h1>
+            </div>
+        </div>
+        </div>
+       <!---------------------about--------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <h1 class="sub-title" style="color:#ff004f;">About Me</h1><br>
+                        <p style="color: azure;font-size:27px;">Motivated second-year Computer Science student with a strong passion for software development. 
+                            Seeking opportunities to apply programming skills and contribute to innovative projects. 
+                            Eager to enhance proficiency in coding, software design, and development methodologies. 
+                            Committed to continuous learning and staying abreast of emerging technologies.
+                             Looking for a dynamic environment where I can collaborate with experienced professionals and make a meaningful impact.</p>
+                       </div>
+                    <div class="about-col-2">
+                    <img src="img7.jpg" class="logo" width="250px" height="300px">
+                </div> 
+                </div>
+                </div>
+            </div>
+        <!---------------Skills---------------------------------->
+        <div id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="skills-col-2">
+                        <img src="sk2.avif" class="logo" width="280px" height="300px">
+                    </div>
+                    <div class="skills-col-1">
+                <h1 class="sub-title" style="color: #ff004f;">SKILLS</h1><br>
+                <ul style="color: azure;font-size: 27px;">
+                <li>HTML5</li><br>
+                <li>CSS</li><br>
+                <li>JavaScript</li><br>
+                <li>C</li><br>
+                <li>Data structures</li><br>
+                <li>PHP</li><br>
+               </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+    <!---------------------------Project-------------------------->
+    <div id="project">
+        <div class="container">
+            <div class="row">
+                <div class="project-col-1">
+            <h1 class="sub-title" style="color: #ff004f;">Project</h1><br>
+            <h3 style="color: #ff004f;">Title:Object Counter</h3><br>
+            <p style="color: azure;font-size: 27px;">The Object Counter mini project employs a breadboard, buzzer, button, LED, seven-segment display, and an IR sensor, controlled by an IC.
+                 It tracks objects through the IR sensor, triggering the LED, buzzer, and displaying the count on the seven-segment display. 
+                 A reset button allows for count management. Applications include automated attendance, people counting, inventory tracking, and traffic monitoring, making it a versatile solution for various counting needs in both commercial and public settings.
+            </p>
+        </div>
+        <div class="project-col-2">
+            <img src="pr1.jpg" class="logo" width="1000px" height="300px">
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-----------------------------Resume--------------------------->
+    <div id="Resume">
+        <div class="container">
+            <div class="row">
+        <div class="Resume-col-2">
+            <img src="rs1.jpg" class="logo" width="250px" height="300px">
+        </div>
+        <div class="Resume-col-1">
+            <h1 class="sub-title" style="color: #ff004f;">Resume</h1><br>
+            <p style="color: azure;font-size: 27px;">To explore my skills, projects, and certifications, please click the link to download my resume.</p>
+            <br>
+            <a href="sangeetha s (2).pdf">RESUME</a>
+           
+        </div>
+    </div>
+    </div>
+    </div>
+    <!---------------------------Contact----------------------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+        <div class="Contact-col-1">
+            <h1 class="sub-title" style="color: #ff004f;">Contact</h1><br>
+            <ul style="color: azure;font-size: 27px;">
+          <li> <p class="item">sambathpjs@gmail.com</p><br></li>
+            <li><p class="item">+91 8608818118</p><br></li>
+            <li><p class="item">Sangeetha Sambath@linkedin.com</p></li>
+        </div>
+        <div class="Contact-col-2">
+            <img src="con1.avif" class="logo" width="250px" height="300px">
+        </div>
+    </div>
+    </div>
+    </div> 
+    <!---------------------footer------------------------------------->
+    <footer>
+            <p>copyright @ Sangeetha. All rights reserved.</p>
+        </footer>
+    
+    </footer>
+</body>
+</html>
+
+portfolio.css
+
+.body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('img2.webp');
+   background-size: cover;
+   background-position: center;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+padding: 10px 10%;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
+
+.logo{
+    width: 250px;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-size: 18px;
+    position:relative;
+}
+nav ul li a::after{
+    content:'';
+    width:0;
+    height:3px;
+    background:#ff004f;
+    position:absolute;
+    left:0;
+    bottom: -6px;
+    transition:0.5s;
+}
+nav ul li a:hover::after{
+    width:100%;
+}
+.header-text{
+    margin-top:5%;
+    font-size:30px;
+}
+.header-text h1{
+    margin-top:20px;
+    font-size:60px;
+}
+.header-text h1 span{
+    color:#ff004f;
+}
+
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-2{
+    flex-basis: 35%;
+}
+.about-col-2 img{
+    width: 100%;
+    border-radius:15px;
+}
+.about-col-1{
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size:60px;
+    font-weight:600;
+    color:#fff;
+}
+.sub-title ul li{
+    justify-content: space-between;
+  
+    
+}
+.sub-title
+{
+    color: #ff004f;
+}
+#skills{
+    padding: 80px 0;
+    color:#ababab;
+}
+.skills-col-2{
+    flex-basis: 35%;
+}
+.skills-col-2{
+    width: 100%;
+    border-radius: 15px;
+}
+.skills-col-1{
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size:60px;
+    font-weight:600;
+    color:#fff;
+}
+.sub-title ul li{
+    justify-content: space-between;
+    
+}
+
+#project{
+    padding: 80px 0;
+    color:#ababab;
+}
+.project-col-2{
+    flex-basis: 35%;
+}
+.project-col-2{
+    width:100%;
+    border-radius: 15px;
+}
+.project-col-1{
+    flex-basis: 60%;
+}
+
+#Resume{
+    padding: 80px 0;
+    color: #ababab;
+}
+.Resume-col-2{
+    flex-basis: 35%;
+}
+.Resume-col-2 img{
+    width: 100%;
+    border-radius:15px;
+}
+.Resume-col-1{
+    flex-basis: 60%;
+}
+
+#Contact{
+    padding: 80px 0;
+    color: #ababab;
+}
+.Contact-col-2{
+    flex-basis: 35%;
+}
+.Contact-col-2 img{
+    width: 100%;
+    border-radius:15px;
+}
+.Contact-col-1{
+    flex-basis: 60%;
+}
+.item{
+    display:inline-block;
+    justify-content: space-around;
+    margin-left:40px;
+    color:white;
+  }
+ 
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}  
